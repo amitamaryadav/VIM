@@ -1,0 +1,8 @@
+# poetry setup inside already created project
+- poetry init
+- poetry install
+
+# poetry installing dependencies from requirements.txt
+-  for item in $(cat requirements.txt); do poetry add "${item}"; done
+
+
